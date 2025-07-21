@@ -7,8 +7,8 @@
 
 <!-- code_chunk_output -->
 
-- [希腊字母(\&不同字体)](#希腊字母不同字体)
-- [二元运算符(等号)](#二元运算符等号)
+- [希腊字母(&不同字体)](#希腊字母不同字体)
+- [二元运算符（等号）](#二元运算符等号)
 - [大尺寸运算符](#大尺寸运算符)
 - [定界符](#定界符)
 - [大尺寸定界符](#大尺寸定界符)
@@ -64,23 +64,38 @@
 | **铜板体**       | `\mathscr{A, B, C}`   | $$\mathscr{A, B, C}$$   |
 
 
-## 二元运算符(等号)
 
-| `LaTeX`**命令**  | **符号**           |     | `LaTeX`**命令**    | **符号**                  |     | `LaTeX`**命令**  | **符号**           |
-| ---------------- | ------------------ | --- | ------------------ | ------------------------- | --- | ---------------- | ------------------ |
-| `+`              | $$+$$              |     | `-`                | $$-$$                     |     | `\triangleleft`  | $$\triangleleft$$  |
-| `\pm`            | $$\pm$$            |     | `\mp`              | $$\mp$$                   |     | `\triangleright` | $$\triangleright$$ |
-| `\cdot`          | $$\cdot$$          |     | `\div`             | $$\div$$                  |     | `\star`          | $$\star$$          |
-| `\times`         | $$\times$$         |     | `\setminus`        | $$\setminus$$             |     | `\ast`           | $$\ast$$           |
-| `\cup`           | $$\cup$$           |     | `\cap`             | $$\cap$$                  |     | `\circ`          | $$\circ$$          |
-| `\sqcup`         | $$\sqcup$$         |     | `\sqcap`           | $$\sqcap$$                |     | `\bullet`        | $$\bullet$$        |
-| `\vee, \lor`     | $$\vee, \lor$$     |     | `\wedge, \land`    | $$\wedge, \land$$         |     | `\diamond`       | $$\diamond$$       |
-| `\oplus`         | $$\oplus$$         |     | `\ominus`          | $$\ominus$$               |     | `\uplus`         | $$\uplus$$         |
-| `\odot`          | $$\odot$$          |     | `\oslash`          | $$\oslash$$               |     | `\amalg`         | $$\amalg$$         |
-| `\otimes`        | $$\otimes$$        |     | `\bigcirc`         | $$\bigcirc$$              |     | `\dagger`        | $$\dagger$$        |
-| `\bigtriangleup` | $$\bigtriangleup$$ |     | `\bigtriangledown` | $$\bigtriangledown$$      |     | `\lhd, \rhd`     | $$\lhd, \rhd$$     |
-| `\ddagger`       | $$\ddagger$$       |     | `\wr`              | $$\wr$$                   |     | `\unlhd, \unrhd` | $$\unlhd,\unrhd$$  |
-| `=`              | $$=$$              |     | `\xlongequal`      | $$\xlongequal[abc]{def}$$ |     | `\neq`           | $$\neq$$           |
+## 二元运算符（等号）
+
+| `LaTeX`**命令**    | **符号**         |     | `LaTeX`**命令**        | **符号**                |     | `LaTeX`**命令**          | **符号**               |
+| ------------------ | ---------------- | --- | ---------------------- | ----------------------- | --- | ------------------------ | ---------------------- |
+| `+`                | $+$              |     | `-`                    | $-$                     |     | `\triangleleft`          | $\triangleleft$        |
+| `\pm`              | $\pm$            |     | `\mp`                  | $\mp$                   |     | `\triangleright`         | $\triangleright$       |
+| `\cdot`            | $\cdot$          |     | `\div`                 | $\div$                  |     | `\star`                  | $\star$                |
+| `\times`           | $\times$         |     | `\setminus`            | $\setminus$             |     | `\ast`                   | $\ast$                 |
+| `\cup`             | $\cup$           |     | `\cap`                 | $\cap$                  |     | `\circ`                  | $\circ$                |
+| `\sqcup`           | $\sqcup$         |     | `\sqcap`               | $\sqcap$                |     | `\bullet`                | $\bullet$              |
+| `\vee, \lor`       | $\vee, \lor$     |     | `\wedge, \land`        | $\wedge, \land$         |     | `\diamond`               | $\diamond$             |
+| `\oplus`           | $\oplus$         |     | `\ominus`              | $\ominus$               |     | `\uplus`                 | $\uplus$               |
+| `\odot`            | $\odot$          |     | `\oslash`              | $\oslash$               |     | `\amalg`                 | $\amalg$               |
+| `\otimes`          | $\otimes$        |     | `\bigcirc`             | $\bigcirc$              |     | `\dagger`                | $\dagger$              |
+| `\bigtriangleup`   | $\bigtriangleup$ |     | `\bigtriangledown`     | $\bigtriangledown$      |     | `\lhd, \rhd`             | $\lhd, \rhd$           |
+| `\ddagger`         | $\ddagger$       |     | `\wr`                  | $\wr$                   |     | `\unlhd, \unrhd`         | $\unlhd, \unrhd$       |
+| `=`                | $=$              |     | `\xlongequal`          | $\xlongequal[abc]{def}$ |     | `\neq`                   | $\neq$                 |
+| `>`                | $>$              |     | `<`                    | $<$                     |     | `\not>`                  | $\not>$                |
+| `\ge` or `\geq`    | $\geq$           |     | `\le` or `\leq`        | $\leq$                  |     | `\nleq`, `\ngeq`         | $\nleq, \ngeq$         |
+| `\gg`              | $\gg$            |     | `\ll`                  | $\ll$                   |     | `\gtrless`               | $\gtrless$             |
+| `\gtrsim`          | $\gtrsim$        |     | `\lesssim`             | $\lesssim$              |     | `\gtrapprox`             | $\gtrapprox$           |
+| `\lessgtr`         | $\lessgtr$       |     | `\leqq`, `\geqq`       | $\leqq, \geqq$          |     | `\leqslant`, `\geqslant` | $\leqslant, \geqslant$ |
+| `\eqslantless`     | $\eqslantless$   |     | `\eqslantgtr`          | $\eqslantgtr$           |     | `\lessapprox`            | $\lessapprox$          |
+| `\lessdot`         | $\lessdot$       |     | `\gtrdot`              | $\gtrdot$               |     | `\nless`, `\ngtr`        | $\nless, \ngtr$        |
+| `\prec`            | $\prec$          |     | `\succ`                | $\succ$                 |     | `\preceq`, `\succeq`     | $\preceq, \succeq$     |
+| `\nprec`, `\nsucc` | $\nprec, \nsucc$ |     | `\precsim`, `\succsim` | $\precsim, \succsim$    |     | `\preceqq`, `\succeqq`   | $\preceqq, \succeqq$   |
+
+---
+
+如需进一步添加集合包含关系（例如 `\subset`, `\supset`）、恒等运算符（如 `\equiv`, `\approx`）或逻辑蕴含等符号，也可以继续扩充分类子表。是否需要我接着整理 **集合关系运算符** 或 **等价与近似符号** 部分？
+
 
 ## 大尺寸运算符
 
